@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32D51811D31B8D1004AFCAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D51801D31B8D1004AFCAE /* AppDelegate.swift */; };
+		D32D51831D31B8D1004AFCAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D51821D31B8D1004AFCAE /* ViewController.swift */; };
+		D32D51861D31B8D1004AFCAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32D51841D31B8D1004AFCAE /* Main.storyboard */; };
+		D32D51881D31B8D1004AFCAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32D51871D31B8D1004AFCAE /* Assets.xcassets */; };
+		D32D518B1D31B8D1004AFCAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32D51891D31B8D1004AFCAE /* LaunchScreen.storyboard */; };
+		D32D51961D31B8D1004AFCAE /* BeatDropNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D51951D31B8D1004AFCAE /* BeatDropNTests.swift */; };
+		D32D51A11D31B8D1004AFCAE /* BeatDropNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D51A01D31B8D1004AFCAE /* BeatDropNUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D32D51921D31B8D1004AFCAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32D51751D31B8D1004AFCAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32D517C1D31B8D1004AFCAE;
+			remoteInfo = BeatDropN;
+		};
+		D32D519D1D31B8D1004AFCAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32D51751D31B8D1004AFCAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32D517C1D31B8D1004AFCAE;
+			remoteInfo = BeatDropN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D32D517D1D31B8D1004AFCAE /* BeatDropN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatDropN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32D51801D31B8D1004AFCAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D32D51821D31B8D1004AFCAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D32D51851D31B8D1004AFCAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D32D51871D31B8D1004AFCAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D32D518A1D31B8D1004AFCAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D32D518C1D31B8D1004AFCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32D51911D31B8D1004AFCAE /* BeatDropNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatDropNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32D51951D31B8D1004AFCAE /* BeatDropNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatDropNTests.swift; sourceTree = "<group>"; };
+		D32D51971D31B8D1004AFCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32D519C1D31B8D1004AFCAE /* BeatDropNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatDropNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32D51A01D31B8D1004AFCAE /* BeatDropNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatDropNUITests.swift; sourceTree = "<group>"; };
+		D32D51A21D31B8D1004AFCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D32D517A1D31B8D1004AFCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32D518E1D31B8D1004AFCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32D51991D31B8D1004AFCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32D51741D31B8D1004AFCAE = {
+			isa = PBXGroup;
+			children = (
+				D32D517F1D31B8D1004AFCAE /* BeatDropN */,
+				D32D51941D31B8D1004AFCAE /* BeatDropNTests */,
+				D32D519F1D31B8D1004AFCAE /* BeatDropNUITests */,
+				D32D517E1D31B8D1004AFCAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32D517E1D31B8D1004AFCAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32D517D1D31B8D1004AFCAE /* BeatDropN.app */,
+				D32D51911D31B8D1004AFCAE /* BeatDropNTests.xctest */,
+				D32D519C1D31B8D1004AFCAE /* BeatDropNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32D517F1D31B8D1004AFCAE /* BeatDropN */ = {
+			isa = PBXGroup;
+			children = (
+				D32D51801D31B8D1004AFCAE /* AppDelegate.swift */,
+				D32D51821D31B8D1004AFCAE /* ViewController.swift */,
+				D32D51841D31B8D1004AFCAE /* Main.storyboard */,
+				D32D51871D31B8D1004AFCAE /* Assets.xcassets */,
+				D32D51891D31B8D1004AFCAE /* LaunchScreen.storyboard */,
+				D32D518C1D31B8D1004AFCAE /* Info.plist */,
+			);
+			path = BeatDropN;
+			sourceTree = "<group>";
+		};
+		D32D51941D31B8D1004AFCAE /* BeatDropNTests */ = {
+			isa = PBXGroup;
+			children = (
+				D32D51951D31B8D1004AFCAE /* BeatDropNTests.swift */,
+				D32D51971D31B8D1004AFCAE /* Info.plist */,
+			);
+			path = BeatDropNTests;
+			sourceTree = "<group>";
+		};
+		D32D519F1D31B8D1004AFCAE /* BeatDropNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D32D51A01D31B8D1004AFCAE /* BeatDropNUITests.swift */,
+				D32D51A21D31B8D1004AFCAE /* Info.plist */,
+			);
+			path = BeatDropNUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32D517C1D31B8D1004AFCAE /* BeatDropN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32D51A51D31B8D1004AFCAE /* Build configuration list for PBXNativeTarget "BeatDropN" */;
+			buildPhases = (
+				D32D51791D31B8D1004AFCAE /* Sources */,
+				D32D517A1D31B8D1004AFCAE /* Frameworks */,
+				D32D517B1D31B8D1004AFCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatDropN;
+			productName = BeatDropN;
+			productReference = D32D517D1D31B8D1004AFCAE /* BeatDropN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D32D51901D31B8D1004AFCAE /* BeatDropNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32D51A81D31B8D1004AFCAE /* Build configuration list for PBXNativeTarget "BeatDropNTests" */;
+			buildPhases = (
+				D32D518D1D31B8D1004AFCAE /* Sources */,
+				D32D518E1D31B8D1004AFCAE /* Frameworks */,
+				D32D518F1D31B8D1004AFCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32D51931D31B8D1004AFCAE /* PBXTargetDependency */,
+			);
+			name = BeatDropNTests;
+			productName = BeatDropNTests;
+			productReference = D32D51911D31B8D1004AFCAE /* BeatDropNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D32D519B1D31B8D1004AFCAE /* BeatDropNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32D51AB1D31B8D1004AFCAE /* Build configuration list for PBXNativeTarget "BeatDropNUITests" */;
+			buildPhases = (
+				D32D51981D31B8D1004AFCAE /* Sources */,
+				D32D51991D31B8D1004AFCAE /* Frameworks */,
+				D32D519A1D31B8D1004AFCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32D519E1D31B8D1004AFCAE /* PBXTargetDependency */,
+			);
+			name = BeatDropNUITests;
+			productName = BeatDropNUITests;
+			productReference = D32D519C1D31B8D1004AFCAE /* BeatDropNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32D51751D31B8D1004AFCAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bytLabs;
+				TargetAttributes = {
+					D32D517C1D31B8D1004AFCAE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D32D51901D31B8D1004AFCAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D32D517C1D31B8D1004AFCAE;
+					};
+					D32D519B1D31B8D1004AFCAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D32D517C1D31B8D1004AFCAE;
+					};
+				};
+			};
+			buildConfigurationList = D32D51781D31B8D1004AFCAE /* Build configuration list for PBXProject "BeatDropN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D32D51741D31B8D1004AFCAE;
+			productRefGroup = D32D517E1D31B8D1004AFCAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32D517C1D31B8D1004AFCAE /* BeatDropN */,
+				D32D51901D31B8D1004AFCAE /* BeatDropNTests */,
+				D32D519B1D31B8D1004AFCAE /* BeatDropNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32D517B1D31B8D1004AFCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32D518B1D31B8D1004AFCAE /* LaunchScreen.storyboard in Resources */,
+				D32D51881D31B8D1004AFCAE /* Assets.xcassets in Resources */,
+				D32D51861D31B8D1004AFCAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32D518F1D31B8D1004AFCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32D519A1D31B8D1004AFCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D32D51791D31B8D1004AFCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32D51831D31B8D1004AFCAE /* ViewController.swift in Sources */,
+				D32D51811D31B8D1004AFCAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32D518D1D31B8D1004AFCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32D51961D31B8D1004AFCAE /* BeatDropNTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32D51981D31B8D1004AFCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32D51A11D31B8D1004AFCAE /* BeatDropNUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D32D51931D31B8D1004AFCAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32D517C1D31B8D1004AFCAE /* BeatDropN */;
+			targetProxy = D32D51921D31B8D1004AFCAE /* PBXContainerItemProxy */;
+		};
+		D32D519E1D31B8D1004AFCAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32D517C1D31B8D1004AFCAE /* BeatDropN */;
+			targetProxy = D32D519D1D31B8D1004AFCAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D32D51841D31B8D1004AFCAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32D51851D31B8D1004AFCAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D32D51891D31B8D1004AFCAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32D518A1D31B8D1004AFCAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D32D51A31D31B8D1004AFCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D32D51A41D31B8D1004AFCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D32D51A61D31B8D1004AFCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeatDropN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytlabs.BeatDropN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D32D51A71D31B8D1004AFCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeatDropN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytlabs.BeatDropN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D32D51A91D31B8D1004AFCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeatDropNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytlabs.BeatDropNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatDropN.app/BeatDropN";
+			};
+			name = Debug;
+		};
+		D32D51AA1D31B8D1004AFCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeatDropNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytlabs.BeatDropNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatDropN.app/BeatDropN";
+			};
+			name = Release;
+		};
+		D32D51AC1D31B8D1004AFCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeatDropNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytlabs.BeatDropNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeatDropN;
+			};
+			name = Debug;
+		};
+		D32D51AD1D31B8D1004AFCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeatDropNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytlabs.BeatDropNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeatDropN;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D32D51781D31B8D1004AFCAE /* Build configuration list for PBXProject "BeatDropN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32D51A31D31B8D1004AFCAE /* Debug */,
+				D32D51A41D31B8D1004AFCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32D51A51D31B8D1004AFCAE /* Build configuration list for PBXNativeTarget "BeatDropN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32D51A61D31B8D1004AFCAE /* Debug */,
+				D32D51A71D31B8D1004AFCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D32D51A81D31B8D1004AFCAE /* Build configuration list for PBXNativeTarget "BeatDropNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32D51A91D31B8D1004AFCAE /* Debug */,
+				D32D51AA1D31B8D1004AFCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D32D51AB1D31B8D1004AFCAE /* Build configuration list for PBXNativeTarget "BeatDropNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32D51AC1D31B8D1004AFCAE /* Debug */,
+				D32D51AD1D31B8D1004AFCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D32D51751D31B8D1004AFCAE /* Project object */;
+}
