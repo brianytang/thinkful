@@ -1,0 +1,3 @@
+[submodule "box-ios-sdk"]
+	path = box-ios-sdk
+	url = git@github.com:box/box-ios-sdk.git

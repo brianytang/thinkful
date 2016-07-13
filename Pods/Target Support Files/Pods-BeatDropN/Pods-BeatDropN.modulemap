@@ -1,0 +1,6 @@
+framework module Pods_BeatDropN {
+  umbrella header "Pods-BeatDropN-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28CB6BA43F43C79EC960B35A /* Pods_BeatDropN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C82462D5C88F48A009C4E8 /* Pods_BeatDropN.framework */; };
+		7A4E91F29CF0254D0304D9EB /* Pods_BeatDropNUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE9111D7F47A53F446FAD7 /* Pods_BeatDropNUITests.framework */; };
+		929BC2169F5CBE68D6BDE53D /* Pods_BeatDropNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10FA0965EB90C468399C60E /* Pods_BeatDropNTests.framework */; };
 		D32D51811D31B8D1004AFCAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D51801D31B8D1004AFCAE /* AppDelegate.swift */; };
 		D32D51831D31B8D1004AFCAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D51821D31B8D1004AFCAE /* ViewController.swift */; };
 		D32D51861D31B8D1004AFCAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32D51841D31B8D1004AFCAE /* Main.storyboard */; };
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		305A7F570A2F152076360A95 /* Pods-BeatDropNUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatDropNUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeatDropNUITests/Pods-BeatDropNUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C00029399236608529F0170 /* Pods-BeatDropNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatDropNUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeatDropNUITests/Pods-BeatDropNUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90B26F3FF299FBF4E759BEB8 /* Pods-BeatDropNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatDropNTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeatDropNTests/Pods-BeatDropNTests.release.xcconfig"; sourceTree = "<group>"; };
+		A064225987305BAF4BA1823D /* Pods-BeatDropN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatDropN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeatDropN/Pods-BeatDropN.debug.xcconfig"; sourceTree = "<group>"; };
+		ACAE9111D7F47A53F446FAD7 /* Pods_BeatDropNUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatDropNUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10FA0965EB90C468399C60E /* Pods_BeatDropNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatDropNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32D517D1D31B8D1004AFCAE /* BeatDropN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatDropN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32D51801D31B8D1004AFCAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D32D51821D31B8D1004AFCAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		D32D519C1D31B8D1004AFCAE /* BeatDropNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatDropNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32D51A01D31B8D1004AFCAE /* BeatDropNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatDropNUITests.swift; sourceTree = "<group>"; };
 		D32D51A21D31B8D1004AFCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB2BCD678CFAB666AE74D2A /* Pods-BeatDropNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatDropNTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeatDropNTests/Pods-BeatDropNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8C82462D5C88F48A009C4E8 /* Pods_BeatDropN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatDropN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3E8257F0C8BAB514217B2B /* Pods-BeatDropN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatDropN.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeatDropN/Pods-BeatDropN.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CB6BA43F43C79EC960B35A /* Pods_BeatDropN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929BC2169F5CBE68D6BDE53D /* Pods_BeatDropNTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4E91F29CF0254D0304D9EB /* Pods_BeatDropNUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FA3F7C10672444C605FE9E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8C82462D5C88F48A009C4E8 /* Pods_BeatDropN.framework */,
+				D10FA0965EB90C468399C60E /* Pods_BeatDropNTests.framework */,
+				ACAE9111D7F47A53F446FAD7 /* Pods_BeatDropNUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1545CEE6AA2E7939495C481 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A064225987305BAF4BA1823D /* Pods-BeatDropN.debug.xcconfig */,
+				FB3E8257F0C8BAB514217B2B /* Pods-BeatDropN.release.xcconfig */,
+				DFB2BCD678CFAB666AE74D2A /* Pods-BeatDropNTests.debug.xcconfig */,
+				90B26F3FF299FBF4E759BEB8 /* Pods-BeatDropNTests.release.xcconfig */,
+				7C00029399236608529F0170 /* Pods-BeatDropNUITests.debug.xcconfig */,
+				305A7F570A2F152076360A95 /* Pods-BeatDropNUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D32D51741D31B8D1004AFCAE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				D32D51941D31B8D1004AFCAE /* BeatDropNTests */,
 				D32D519F1D31B8D1004AFCAE /* BeatDropNUITests */,
 				D32D517E1D31B8D1004AFCAE /* Products */,
+				A1545CEE6AA2E7939495C481 /* Pods */,
+				8FA3F7C10672444C605FE9E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D32D51A51D31B8D1004AFCAE /* Build configuration list for PBXNativeTarget "BeatDropN" */;
 			buildPhases = (
+				13D8BA4FF54E92DACF14E631 /* [CP] Check Pods Manifest.lock */,
 				D32D51791D31B8D1004AFCAE /* Sources */,
 				D32D517A1D31B8D1004AFCAE /* Frameworks */,
 				D32D517B1D31B8D1004AFCAE /* Resources */,
+				4BFC2FEF4F4AEA59E0B57057 /* [CP] Embed Pods Frameworks */,
+				BFAFC1C2408E6907FE59DEA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D32D51A81D31B8D1004AFCAE /* Build configuration list for PBXNativeTarget "BeatDropNTests" */;
 			buildPhases = (
+				293D1C07D64B95F65BFE21CB /* [CP] Check Pods Manifest.lock */,
 				D32D518D1D31B8D1004AFCAE /* Sources */,
 				D32D518E1D31B8D1004AFCAE /* Frameworks */,
 				D32D518F1D31B8D1004AFCAE /* Resources */,
+				22BBCDA6C62614C7934A66C3 /* [CP] Embed Pods Frameworks */,
+				D8FE82BE491A7E465F110FE2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D32D51AB1D31B8D1004AFCAE /* Build configuration list for PBXNativeTarget "BeatDropNUITests" */;
 			buildPhases = (
+				9E87D3378061E816AA0021E8 /* [CP] Check Pods Manifest.lock */,
 				D32D51981D31B8D1004AFCAE /* Sources */,
 				D32D51991D31B8D1004AFCAE /* Frameworks */,
 				D32D519A1D31B8D1004AFCAE /* Resources */,
+				14306F0C72B32138F780AE3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13D8BA4FF54E92DACF14E631 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14306F0C72B32138F780AE3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeatDropNUITests/Pods-BeatDropNUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22BBCDA6C62614C7934A66C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeatDropNTests/Pods-BeatDropNTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		293D1C07D64B95F65BFE21CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4BFC2FEF4F4AEA59E0B57057 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeatDropN/Pods-BeatDropN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E87D3378061E816AA0021E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFAFC1C2408E6907FE59DEA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeatDropN/Pods-BeatDropN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8FE82BE491A7E465F110FE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeatDropNTests/Pods-BeatDropNTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D32D51791D31B8D1004AFCAE /* Sources */ = {
@@ -399,6 +570,7 @@
 		};
 		D32D51A61D31B8D1004AFCAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A064225987305BAF4BA1823D /* Pods-BeatDropN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BeatDropN/Info.plist;
@@ -410,6 +582,7 @@
 		};
 		D32D51A71D31B8D1004AFCAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3E8257F0C8BAB514217B2B /* Pods-BeatDropN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BeatDropN/Info.plist;
@@ -421,6 +594,7 @@
 		};
 		D32D51A91D31B8D1004AFCAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB2BCD678CFAB666AE74D2A /* Pods-BeatDropNTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BeatDropNTests/Info.plist;
@@ -433,6 +607,7 @@
 		};
 		D32D51AA1D31B8D1004AFCAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B26F3FF299FBF4E759BEB8 /* Pods-BeatDropNTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BeatDropNTests/Info.plist;
@@ -445,6 +620,7 @@
 		};
 		D32D51AC1D31B8D1004AFCAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C00029399236608529F0170 /* Pods-BeatDropNUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BeatDropNUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +632,7 @@
 		};
 		D32D51AD1D31B8D1004AFCAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305A7F570A2F152076360A95 /* Pods-BeatDropNUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BeatDropNUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +661,7 @@
 				D32D51A71D31B8D1004AFCAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D32D51A81D31B8D1004AFCAE /* Build configuration list for PBXNativeTarget "BeatDropNTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +670,7 @@
 				D32D51AA1D31B8D1004AFCAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D32D51AB1D31B8D1004AFCAE /* Build configuration list for PBXNativeTarget "BeatDropNUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				D32D51AD1D31B8D1004AFCAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
