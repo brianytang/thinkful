@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AlamofireObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-BeatDropN.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,15 +34,75 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RxBlocking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Swinject.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>box-ios-sdk-BoxContentSDKResources.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>box-ios-sdk.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>124D308BC15BE9ECC1480DBDD1E41D88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1DF6D644BFA43F9E943881340201911F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2547E30213B149FE0907553DED40FC8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2969AA2DB5A1969C475A2C0AC89D9DA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4EDC89A734E173A7B3FD6B94CA313D59</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>95FD2F13EB5BEA4F6C6F7652B139054E</key>
+		<key>7F2E784AC42D8D5B5406424658253B1C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +112,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E95BFC1610E6953DDEC40E958A8DFA13</key>
+		<key>C5CBCAA97E951CC882334464FBDF983D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CAF64D7824E4246B99D0B79981D941C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA27C79B79127E760218549FCB886236</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD83C1453583E4B873B331A9A8659A31</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FBD082A0D35F7917EAB9DD9D3CCA9976</key>
 		<dict>
 			<key>primary</key>
 			<true/>

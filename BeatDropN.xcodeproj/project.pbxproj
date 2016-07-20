@@ -10,13 +10,24 @@
 		28CB6BA43F43C79EC960B35A /* Pods_BeatDropN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C82462D5C88F48A009C4E8 /* Pods_BeatDropN.framework */; };
 		7A4E91F29CF0254D0304D9EB /* Pods_BeatDropNUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAE9111D7F47A53F446FAD7 /* Pods_BeatDropNUITests.framework */; };
 		929BC2169F5CBE68D6BDE53D /* Pods_BeatDropNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10FA0965EB90C468399C60E /* Pods_BeatDropNTests.framework */; };
+		D30FA2ED1D3B3E1500B957BD /* AppStartupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30FA2EC1D3B3E1500B957BD /* AppStartupManager.swift */; };
+		D30FA2F21D3B436200B957BD /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30FA2F11D3B436200B957BD /* Main.xib */; };
+		D30FA2F41D3B43C900B957BD /* FolderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30FA2F31D3B43C900B957BD /* FolderManager.swift */; };
+		D30FA2F91D3C358700B957BD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30FA2F81D3C358700B957BD /* SettingsViewController.swift */; };
+		D30FA2FB1D3C359800B957BD /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30FA2FA1D3C359800B957BD /* Settings.xib */; };
+		D30FA2FE1D3C35FB00B957BD /* ControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30FA2FD1D3C35FB00B957BD /* ControllerFactory.swift */; };
+		D30FA3041D3C3F3D00B957BD /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30FA3031D3C3F3D00B957BD /* UserManager.swift */; };
+		D30FA3081D3C8F1700B957BD /* HypeMachineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30FA3071D3C8F1700B957BD /* HypeMachineService.swift */; };
+		D30FA30B1D3C8F6A00B957BD /* HypeTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30FA30A1D3C8F6A00B957BD /* HypeTrack.swift */; };
+		D30FA30F1D3CAB6700B957BD /* HypeTrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30FA30E1D3CAB6700B957BD /* HypeTrackCell.xib */; };
+		D30FA3111D3CAF2B00B957BD /* HypeTrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30FA3101D3CAF2B00B957BD /* HypeTrackCell.swift */; };
 		D32D51811D31B8D1004AFCAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D51801D31B8D1004AFCAE /* AppDelegate.swift */; };
-		D32D51831D31B8D1004AFCAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D51821D31B8D1004AFCAE /* ViewController.swift */; };
-		D32D51861D31B8D1004AFCAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32D51841D31B8D1004AFCAE /* Main.storyboard */; };
+		D32D51831D31B8D1004AFCAE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D51821D31B8D1004AFCAE /* MainViewController.swift */; };
 		D32D51881D31B8D1004AFCAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32D51871D31B8D1004AFCAE /* Assets.xcassets */; };
 		D32D518B1D31B8D1004AFCAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32D51891D31B8D1004AFCAE /* LaunchScreen.storyboard */; };
 		D32D51961D31B8D1004AFCAE /* BeatDropNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D51951D31B8D1004AFCAE /* BeatDropNTests.swift */; };
 		D32D51A11D31B8D1004AFCAE /* BeatDropNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D51A01D31B8D1004AFCAE /* BeatDropNUITests.swift */; };
+		D390E6641D3AF529002FBC77 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D390E6631D3AF529002FBC77 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +54,20 @@
 		A064225987305BAF4BA1823D /* Pods-BeatDropN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatDropN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeatDropN/Pods-BeatDropN.debug.xcconfig"; sourceTree = "<group>"; };
 		ACAE9111D7F47A53F446FAD7 /* Pods_BeatDropNUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatDropNUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10FA0965EB90C468399C60E /* Pods_BeatDropNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatDropNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30FA2EC1D3B3E1500B957BD /* AppStartupManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStartupManager.swift; sourceTree = "<group>"; };
+		D30FA2F11D3B436200B957BD /* Main.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		D30FA2F31D3B43C900B957BD /* FolderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderManager.swift; sourceTree = "<group>"; };
+		D30FA2F81D3C358700B957BD /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D30FA2FA1D3C359800B957BD /* Settings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
+		D30FA2FD1D3C35FB00B957BD /* ControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerFactory.swift; sourceTree = "<group>"; };
+		D30FA3031D3C3F3D00B957BD /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		D30FA3071D3C8F1700B957BD /* HypeMachineService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypeMachineService.swift; sourceTree = "<group>"; };
+		D30FA30A1D3C8F6A00B957BD /* HypeTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypeTrack.swift; sourceTree = "<group>"; };
+		D30FA30E1D3CAB6700B957BD /* HypeTrackCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HypeTrackCell.xib; sourceTree = "<group>"; };
+		D30FA3101D3CAF2B00B957BD /* HypeTrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypeTrackCell.swift; sourceTree = "<group>"; };
 		D32D517D1D31B8D1004AFCAE /* BeatDropN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatDropN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32D51801D31B8D1004AFCAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D32D51821D31B8D1004AFCAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D32D51851D31B8D1004AFCAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D32D51821D31B8D1004AFCAE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D32D51871D31B8D1004AFCAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D32D518A1D31B8D1004AFCAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D32D518C1D31B8D1004AFCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +77,7 @@
 		D32D519C1D31B8D1004AFCAE /* BeatDropNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatDropNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32D51A01D31B8D1004AFCAE /* BeatDropNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatDropNUITests.swift; sourceTree = "<group>"; };
 		D32D51A21D31B8D1004AFCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D390E6631D3AF529002FBC77 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DFB2BCD678CFAB666AE74D2A /* Pods-BeatDropNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatDropNTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeatDropNTests/Pods-BeatDropNTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8C82462D5C88F48A009C4E8 /* Pods_BeatDropN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatDropN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3E8257F0C8BAB514217B2B /* Pods-BeatDropN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatDropN.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeatDropN/Pods-BeatDropN.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +134,51 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D30FA2E91D3B2E5800B957BD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D32D51801D31B8D1004AFCAE /* AppDelegate.swift */,
+				D30FA2EC1D3B3E1500B957BD /* AppStartupManager.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		D30FA2EE1D3B417600B957BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D30FA2F11D3B436200B957BD /* Main.xib */,
+				D30FA2FA1D3C359800B957BD /* Settings.xib */,
+				D30FA30E1D3CAB6700B957BD /* HypeTrackCell.xib */,
+				D30FA3101D3CAF2B00B957BD /* HypeTrackCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D30FA2F51D3C319200B957BD /* Streams */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Streams;
+			sourceTree = "<group>";
+		};
+		D30FA2FC1D3C35DF00B957BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D30FA2FD1D3C35FB00B957BD /* ControllerFactory.swift */,
+				D32D51821D31B8D1004AFCAE /* MainViewController.swift */,
+				D30FA2F81D3C358700B957BD /* SettingsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D30FA3091D3C8F5700B957BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D30FA30A1D3C8F6A00B957BD /* HypeTrack.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		D32D51741D31B8D1004AFCAE = {
 			isa = PBXGroup;
 			children = (
@@ -137,12 +204,18 @@
 		D32D517F1D31B8D1004AFCAE /* BeatDropN */ = {
 			isa = PBXGroup;
 			children = (
-				D32D51801D31B8D1004AFCAE /* AppDelegate.swift */,
-				D32D51821D31B8D1004AFCAE /* ViewController.swift */,
-				D32D51841D31B8D1004AFCAE /* Main.storyboard */,
+				D30FA2E91D3B2E5800B957BD /* App */,
+				D30FA2FC1D3C35DF00B957BD /* Controllers */,
+				D30FA3091D3C8F5700B957BD /* Models */,
+				D30FA2F51D3C319200B957BD /* Streams */,
+				D30FA2EE1D3B417600B957BD /* Views */,
 				D32D51871D31B8D1004AFCAE /* Assets.xcassets */,
 				D32D51891D31B8D1004AFCAE /* LaunchScreen.storyboard */,
 				D32D518C1D31B8D1004AFCAE /* Info.plist */,
+				D390E6631D3AF529002FBC77 /* Constants.swift */,
+				D30FA2F31D3B43C900B957BD /* FolderManager.swift */,
+				D30FA3031D3C3F3D00B957BD /* UserManager.swift */,
+				D30FA3071D3C8F1700B957BD /* HypeMachineService.swift */,
 			);
 			path = BeatDropN;
 			sourceTree = "<group>";
@@ -278,8 +351,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D32D518B1D31B8D1004AFCAE /* LaunchScreen.storyboard in Resources */,
+				D30FA30F1D3CAB6700B957BD /* HypeTrackCell.xib in Resources */,
+				D30FA2F21D3B436200B957BD /* Main.xib in Resources */,
+				D30FA2FB1D3C359800B957BD /* Settings.xib in Resources */,
 				D32D51881D31B8D1004AFCAE /* Assets.xcassets in Resources */,
-				D32D51861D31B8D1004AFCAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,8 +502,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D32D51831D31B8D1004AFCAE /* ViewController.swift in Sources */,
+				D30FA3041D3C3F3D00B957BD /* UserManager.swift in Sources */,
+				D32D51831D31B8D1004AFCAE /* MainViewController.swift in Sources */,
+				D30FA3081D3C8F1700B957BD /* HypeMachineService.swift in Sources */,
+				D30FA2ED1D3B3E1500B957BD /* AppStartupManager.swift in Sources */,
+				D30FA2F91D3C358700B957BD /* SettingsViewController.swift in Sources */,
+				D30FA2F41D3B43C900B957BD /* FolderManager.swift in Sources */,
 				D32D51811D31B8D1004AFCAE /* AppDelegate.swift in Sources */,
+				D390E6641D3AF529002FBC77 /* Constants.swift in Sources */,
+				D30FA2FE1D3C35FB00B957BD /* ControllerFactory.swift in Sources */,
+				D30FA3111D3CAF2B00B957BD /* HypeTrackCell.swift in Sources */,
+				D30FA30B1D3C8F6A00B957BD /* HypeTrack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,14 +548,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D32D51841D31B8D1004AFCAE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D32D51851D31B8D1004AFCAE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D32D51891D31B8D1004AFCAE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -573,10 +649,12 @@
 			baseConfigurationReference = A064225987305BAF4BA1823D /* Pods-BeatDropN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = BeatDropN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bytlabs.BeatDropN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -585,10 +663,12 @@
 			baseConfigurationReference = FB3E8257F0C8BAB514217B2B /* Pods-BeatDropN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = BeatDropN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bytlabs.BeatDropN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};

@@ -1,12 +1,45 @@
 PODS:
   - Alamofire (3.4.1)
+  - AlamofireObjectMapper (3.0.2):
+    - Alamofire (~> 3.2)
+    - ObjectMapper (~> 1.0)
+  - box-ios-sdk (1.0.11):
+    - box-ios-sdk/logger (= 1.0.11)
+    - box-ios-sdk/no-arc (= 1.0.11)
+  - box-ios-sdk/logger (1.0.11)
+  - box-ios-sdk/no-arc (1.0.11):
+    - box-ios-sdk/logger
+  - ObjectMapper (1.3.0)
+  - RxBlocking (2.6.0):
+    - RxSwift (~> 2.5)
+  - RxCocoa (2.6.0):
+    - RxSwift (~> 2.5)
+  - RxSwift (2.6.0)
+  - RxTests (2.6.0):
+    - RxSwift (~> 2.5)
+  - Swinject (1.1.2)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
+  - AlamofireObjectMapper (~> 3.0)
+  - box-ios-sdk
+  - RxBlocking (~> 2.0)
+  - RxCocoa (~> 2.0)
+  - RxSwift (~> 2.0)
+  - RxTests (~> 2.0)
+  - Swinject (~> 1.1.0)
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  AlamofireObjectMapper: 70f97cbf45c01c48d26aa07a1a7059a60ed7411d
+  box-ios-sdk: a34a7c130e83e3d2380d2f6c1f16e589ba7788ba
+  ObjectMapper: 4eb08a726e9791a93b2632049951b56a7c17e471
+  RxBlocking: f2e0a7e74d5e9d3029d2b1118e2af01f583fbdd8
+  RxCocoa: 89ab00d5753502520227940e3a0e0a0413683c6b
+  RxSwift: 77f3a0b15324baa7a1c9bfa9f199648a82424e26
+  RxTests: cdcc379c70e80089a8bc2c99515223339d1c3b81
+  Swinject: 3debc5ac926dcd1be00947265a9db7a5f31b272a
 
-PODFILE CHECKSUM: 9152bf85c5f393e369a856d1ece6e2f6a38a9d0f
+PODFILE CHECKSUM: a13fd6d81c2e387d2d0fd394abfad94b057fc63c
 
 COCOAPODS: 1.0.1
